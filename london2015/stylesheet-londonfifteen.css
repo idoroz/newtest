@@ -1,0 +1,139 @@
+body { 
+
+  margin: 0;
+  
+  background: black;
+ 
+    font-family: 'Comfortaa', cursive;
+     font-weight: 700;  
+} 
+
+
+
+
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+
+}
+div#masonry { 
+  display: flex; 
+  flex-direction: column; 
+  flex-wrap: wrap;
+  height: 100vw;
+  max-height: 800px;
+  font-size: 0;  
+    background: rgba(0,0,0,0.8);
+  
+}
+div#masonry img { 
+transform: scale(0.99); 
+
+overflow: hidden;
+ 
+  width: 33.3%;
+  transition: .8s opacity;
+} 
+
+div#masonry:hover img { opacity: 1; }
+div#masonry:hover img:hover { opacity: 0.5; } 
+
+
+
+#header {
+  width: 100%;
+  height: auto;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+     font-weight: 700;
+}
+
+.header-wrapper h1 {
+    font-size: 4em;  
+    text-align: center;
+    margin: 0;
+    line-height: 115px;
+}
+
+.header-wrapper img {
+    transform: scale(0.5);
+    position: absolute;
+    z-index: 2;
+    top: -7%;
+    /* float: right; */
+    left: -3%;
+}
+
+
+/******************************/
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+ /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); */
+  /* image replacement properties */
+ /* overflow: hidden;*/
+  /*text-indent: 100%;*/
+  color: black;
+  white-space: nowrap;
+ 
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: black;
+  opacity: 1;
+}
+
+
+
+img.cd-top  {
+  top: 50%;
+  left: -50%;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+
+
+/*************************************//
+
+
+/*img[#tallphoto] {
+  max-height: 475.25px;
+
+}
