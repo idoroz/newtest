@@ -108,17 +108,18 @@ h1 {
 (max-device-width : 480px)  { 
 
   body { 
+    
 
   }
 
   div.container {
 
-        height: 1488px;
+        height: 960px;
   }
       
   .container .content-box {
-    top: 30%;
-    
+    top: 15%;
+    width: 50%;
     width: 100%;
     margin-left: -50%;
 
