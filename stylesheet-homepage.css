@@ -59,6 +59,8 @@ body {
 }
 
 
+
+
 .container {
     width: 100%;
     height: 1000px;
@@ -101,7 +103,31 @@ h1 {
    
 }
 
+/* iPhone 4 ----------- */
+@media screen and (min-device-width : 320px) and 
+(max-device-width : 480px)  { 
 
+  body { 
+
+  }
+
+  div.container {
+
+        height: 1488px;
+  }
+      
+  .container .content-box {
+    top: 30%;
+    
+    width: 100%;
+    margin-left: -50%;
+
+
+  }
+
+
+
+    }
 
 
 /*************************************************************************/
@@ -240,6 +266,13 @@ img:hover {
     z-index: 0;
     overflow: hidden;
     
+}
+
+@media screen and (min-device-width : 320px) and 
+(max-device-width : 480px) {
+
+
+
 }
 
 
