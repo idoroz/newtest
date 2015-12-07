@@ -113,7 +113,7 @@ body {
 }
 
 #ninja-slider ul {
-    /*overflow:hidden;*/
+ overflow:hidden;
     position:relative;
     list-style:none;
     padding:0;
