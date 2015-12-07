@@ -309,9 +309,8 @@ h3 {
     margin:0;
     width:100%;
     height:7%;
-    line-height:0px;
+    line-height:5px;
     
-    bottom:-10px;
     text-align:center;
     color:white;
     font-size: 5em;;
@@ -321,7 +320,7 @@ h3 {
    
     -webkit-transform: scale(0.8);
     height:90%;
-    padding-top: 10%;
+    padding-top: 5%;
     
     
 
