@@ -58,6 +58,7 @@ div#masonry:hover img:hover { opacity: 0.5; }
 
 .header-wrapper img {
     transform: scale(0.5);
+   -webkit-transform: scale(0.5);
     position: absolute;
     z-index: 2;
     top: -7%;
@@ -125,6 +126,7 @@ img.cd-top  {
 	
 .header-wrapper img {
     transform: scale(0.3);
+    -webkit-transform: scale(0.3);
     position: absolute;
     z-index: 2;
     top: -6.4%;
