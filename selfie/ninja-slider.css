@@ -317,10 +317,12 @@ h3 {
     font-size: 5em;;
 }
 #ninja-slider .ns-img {
-    
+   
+   
+    -webkit-transform: scale(0.8);
     height:90%;
     padding-top: 10%;
-    -webkit-transform: scale(0.8);
+    
     
 
 
