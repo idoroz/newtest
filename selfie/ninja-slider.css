@@ -62,7 +62,7 @@ body {
 #ninja-slider {
     width:100%;
     height: auto;
-    background:rgba(0,0,0,0.8);
+    background:black;
     margin:0 auto;
     box-sizing:border-box;
 }
