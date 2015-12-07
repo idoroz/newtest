@@ -288,6 +288,7 @@ a img{
  #ninja-slider {
     width:100%;
     height: 1180px;
+    -webkit-transform: scale(1.6);
     
 }
 
