@@ -110,15 +110,13 @@ h1 {
 
   div.container {
 
-<<<<<<< HEAD
-        height: 1152px;
-=======
+
         height: 1180px;
->>>>>>> 0175bbca7c26644cf84a4d81440d2168b28ff232
-  }
+      }
+
       
   .container .content-box {
-    top: 20%;
+    top: 25%;
     width: 50%;
     width: 100%;
     margin-left: -50%;
@@ -146,6 +144,26 @@ h1 {
     -webkit-transform: translateY(0%);
   }
 }
+
+footer {
+    
+        animation: pullup 600ms ease-in-out backwards;
+        -webkit-animation: pullup 600ms ease-in-out backwards;
+  
+}
+
+@-webkit-keyframes pullup {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+     transform: translateY(0%);
+  }
+}
+
 
 
 
