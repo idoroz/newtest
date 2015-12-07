@@ -305,9 +305,16 @@ a img{
 }
 
 h3 {
-   position: absolute;
-   top:100%;
-   line-height: 0px;
+    position:absolute;
+    margin:0;
+    width:100%;
+    height:7%;
+    line-height:36px;
+    top:auto;
+    bottom:0px;
+    text-align:center;
+    color:white;
+    font-size: 5em;;
 }
 
 
