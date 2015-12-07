@@ -138,6 +138,10 @@ body {
     box-sizing:border-box;
 }
 
+#ninja-slider li {
+   top: 20%;
+}
+
 
 }
 
@@ -300,30 +304,6 @@ a img{
 
 
 
-
-/*Responsive settings*/
-@media only screen and (max-width:500px){
-
-    #ninja-slider-prev, #ninja-slider-next, #ninja-slider-pager {
-        display:none;
-    }
-    #ninja-slider div.fs-icon {
-        display:none;
-    }
-
-    h3 {
-        font-size: 0.5em;
-    }
-
-    #ninja-slider {
-        height: auto;
-        margin:  0 auto;
-        overflow-y: hidden;
-    }
-
-
-
-}
 
 
 
