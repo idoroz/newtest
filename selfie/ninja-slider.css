@@ -120,6 +120,22 @@ body {
     box-sizing:border-box;
 }
 
+/* iPad Mini ----------- */
+@media screen and (min-device-width : 760px) and 
+(max-device-width : 800px)  { 
+
+
+#ninja-slider ul {
+    /*overflow:hidden;*/
+    position:relative;
+    list-style:none;
+    padding:50%;
+    box-sizing:border-box;
+}
+
+
+}
+
 #ninja-slider li {
     background-color:#111;
     width:100%;
