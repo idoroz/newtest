@@ -129,9 +129,9 @@ img.cd-top  {
     -webkit-transform: scale(0.3);
     position: absolute;
     z-index: 2;
-    top: -6.4%;
+ top: -7.5%;
     /* float: right; */
-    left: -10%;
+    left: -7%;
 }
 
 .cd-top {
