@@ -334,9 +334,9 @@ a img{
            -webkit-transform: scale(0.3);
     position: fixed;
     z-index: 2;
-    top: -7%;
+    top: -5%;
     /* float: right; */
-    left: -3%;
+    left: -10%;
 }
 
 
