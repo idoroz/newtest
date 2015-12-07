@@ -133,7 +133,30 @@ img.cd-top  {
 /*************************************//
 
 
-/*img[#tallphoto] {
-  max-height: 475.25px;
+/* iPad Mini ----------- */
+@media screen and (min-device-width : 760px) and 
+(max-device-width : 800px)  {
+	
+	.header-wrapper img {
+    position: absolute;
+    z-index: 2;
+    top: -7%;
+    /* float: right; */
+    left: -3%;
+    -webkit-transform: scale(0.3);
+	
+	
+}
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+  
+  img.cd-top  {
+  top: 50%;
+  left: -50%;
+}
 
 }
