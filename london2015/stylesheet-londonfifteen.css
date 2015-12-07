@@ -138,13 +138,12 @@ img.cd-top  {
 (max-device-width : 800px)  {
 	
 	.header-wrapper img {
+ -webkit-transform: scale(0.3);
     position: absolute;
     z-index: 2;
     top: -7%;
     /* float: right; */
-    left: -3%;
-    -webkit-transform: scale(0.3);
-	
+    left: -10%;
 	
 }
 
