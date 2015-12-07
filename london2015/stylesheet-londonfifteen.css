@@ -137,7 +137,7 @@ img.cd-top  {
 @media screen and (min-device-width : 760px) and 
 (max-device-width : 800px)  {
 	
-	.header-wrapper img {
+img.header-wrapper  {
  -webkit-transform: scale(0.3);
     position: absolute;
     z-index: 2;
