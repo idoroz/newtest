@@ -331,7 +331,7 @@ h3 {
 
 a img{
 
-           transform: scale(0.3);
+           -webkit-transform: scale(0.3);
     position: fixed;
     z-index: 2;
     top: -7%;
