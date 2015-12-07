@@ -285,7 +285,7 @@ a img{
 @media screen and (min-device-width : 760px) and 
 (max-device-width : 800px)  { 
 
-#ninja-slider {
+ #ninja-slider {
     width:100%;
     height: 1180px;
     
@@ -302,6 +302,10 @@ a img{
 #ninja-slider li {
    top: 20%;
    height: 80%;
+}
+
+h3 {
+   top:565px;
 }
 
 
