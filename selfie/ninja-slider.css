@@ -141,31 +141,7 @@ body {
 }
 
 
-/* iPad Mini ----------- */
-@media screen and (min-device-width : 760px) and 
-(max-device-width : 800px)  { 
 
-#ninja-slider {
-    width:100%;
-    height: 1180px;
-    
-}
-
-#ninja-slider ul {
-    /*overflow:hidden;*/
-    position:relative;
-    list-style:none;
-    padding:50%;
-    box-sizing:border-box;
-}
-
-#ninja-slider li {
-   top: 20%;
-   height: 80%;
-}
-
-
-}
 
 
 /* --------- slider image ------- */  
@@ -305,6 +281,31 @@ a img{
 
 
 
+/* iPad Mini ----------- */
+@media screen and (min-device-width : 760px) and 
+(max-device-width : 800px)  { 
+
+#ninja-slider {
+    width:100%;
+    height: 1180px;
+    
+}
+
+#ninja-slider ul {
+    /*overflow:hidden;*/
+    position:relative;
+    list-style:none;
+    padding:50%;
+    box-sizing:border-box;
+}
+
+#ninja-slider li {
+   top: 20%;
+   height: 80%;
+}
+
+
+}
 
 
 
