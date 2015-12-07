@@ -102,6 +102,16 @@ h1 {
   z-index: 1;
    
 }
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+   div.container {
+
+
+        height: 1208px;
+        
+  }
+}  
+
+
 
 /* iPad Mini ----------- */
 @media screen and (min-device-width : 760px) and 
@@ -114,6 +124,8 @@ h1 {
         height: 1180px;
         -webkit-height: 1208px;
   }
+
+
       
   .container .content-box {
     top: 25%;
