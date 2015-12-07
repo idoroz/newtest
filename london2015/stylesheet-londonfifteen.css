@@ -143,4 +143,8 @@ img.cd-top  {
   left: -50%;
 }
 
+.header-wrapper h1 {
+    font-size: 6em;
+    color: blue;
+}
 }
