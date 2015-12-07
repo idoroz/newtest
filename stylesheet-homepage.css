@@ -110,7 +110,8 @@ h1 {
 
   div.container {
 
-        height: 1152px;
+
+        height: 1180px;
   }
       
   .container .content-box {
@@ -126,6 +127,8 @@ h1 {
 
    animation: dropdown 600ms ease-in-out backwards;
    -webkit-animation: dropdown 600ms ease-in-out backwards;
+   transform: translate3d(0,0,0);
+-webkit-transform: translate3d(0,0,0);
    
 }
 
