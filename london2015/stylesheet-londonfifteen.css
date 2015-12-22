@@ -58,6 +58,7 @@ div#masonry:hover img:hover { opacity: 0.5; }
 
 .header-wrapper img {
     transform: scale(0.5);
+   -webkit-transform: scale(0.5);
     position: absolute;
     z-index: 2;
     top: -7%;
@@ -113,27 +114,39 @@ img.cd-top  {
   top: 50%;
   left: -50%;
 }
-@media only screen and (min-width: 768px) {
-  .cd-top {
-    right: 20px;
-    bottom: 20px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .cd-top {
-    height: 60px;
-    width: 60px;
-    right: 30px;
-    bottom: 30px;
-  }
-}
 
 
 
 /*************************************//
 
 
-/*img[#tallphoto] {
-  max-height: 475.25px;
+/* iPad Mini ----------- */
+@media screen and (min-device-width : 760px) and 
+(max-device-width : 800px)  {
+	
+.header-wrapper img {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    position: absolute;
+    z-index: 2;
+ top: -7.5%;
+    /* float: right; */
+    left: -7%;
+}
 
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+  
+  img.cd-top  {
+  top: 50%;
+  left: -50%;
+}
+
+.header-wrapper h1 {
+    font-size: 6em;
+    color: blue;
+}
 }

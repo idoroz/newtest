@@ -103,6 +103,8 @@ h1 {
    
 }
 
+
+
 /* iPad Mini ----------- */
 @media screen and (min-device-width : 760px) and 
 (max-device-width : 800px)  { 
@@ -111,8 +113,15 @@ h1 {
   div.container {
 
 
+<<<<<<< HEAD
         height: 1180px;
       }
+=======
+        height: 980px;
+        
+  }
+
+>>>>>>> 290664adf4c9627b2fa68bfd0cf61c96745a8c20
 
       
   .container .content-box {
@@ -128,6 +137,8 @@ h1 {
 
    animation: dropdown 600ms ease-in-out backwards;
    -webkit-animation: dropdown 600ms ease-in-out backwards;
+   transform: translate3d(0,0,0);
+-webkit-transform: translate3d(0,0,0);
    
 }
 
@@ -146,14 +157,23 @@ h1 {
 }
 
 footer {
+<<<<<<< HEAD
     
         animation: pullup 600ms ease-in-out backwards;
         -webkit-animation: pullup 600ms ease-in-out backwards;
+=======
+
+        animation: pullup 600ms ease-in-out backwards;
+         -webkit-animation: pullup 600ms ease-in-out backwards;
+   transform: translate3d(0,0,0);
+-webkit-transform: translate3d(0,0,0);
+>>>>>>> 290664adf4c9627b2fa68bfd0cf61c96745a8c20
   
 }
 
 @-webkit-keyframes pullup {
   0% {
+<<<<<<< HEAD
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
 
@@ -165,6 +185,18 @@ footer {
 }
 
 
+=======
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+
+  }
+  100% {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+  }
+}
+
+>>>>>>> 290664adf4c9627b2fa68bfd0cf61c96745a8c20
 
 
 
